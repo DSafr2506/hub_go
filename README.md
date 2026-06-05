@@ -70,6 +70,4 @@ science_helpy_3/
 └── graph_mas.py
 ```
 
-## Лицензия
 
-MIT
