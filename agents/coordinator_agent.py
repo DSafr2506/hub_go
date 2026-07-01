@@ -86,7 +86,7 @@ class CoordinatorAgent:
 ВАЖНО: После получения текста статьи (через parse_pdf_file или parse_tex_file) — ПРЕКРАТИ вызывать инструменты и сразу ответь с тегом [EVAL], [WRITE] или [END]."""
 
         system_prompt = SystemMessage(
-        content=f"""Ты — Science Helpy 3.0, старший научный ассистент и координатор мультиагентной системы для Telegram-канала «who is AI?».
+        content=f"""Ты — Science Helpy 3.0, старший научный ассистент и координатор мультиагентной системы .
 Сегодня: {self.date}.
 
 {capabilities_block}
